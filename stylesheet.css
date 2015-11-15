@@ -1,0 +1,56 @@
+/**
+ * Reset
+ */
+
+body, span, ul, li, a, img, article, section, header, h1, figure, address {
+  margin: 0px;
+  padding: 0px;
+  line-height: 100%;
+}
+
+/**
+ * Layout
+ */
+
+#content {
+  margin-left: 5em;
+  margin-top: 5em;
+}
+
+/**
+ * Typography
+ */
+
+header, h1 {
+  font-family: "ff-meta-web-pro", Georgia, "serif";
+  font-style: normal;
+  font-weight: 750;
+  font-size: 1.4em;
+  line-height: 162.5%;
+}
+
+p, li {
+  font-family: "ff-meta-web-pro", Georgia, "serif";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1em;
+  line-height: 162.5%;
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+}
+
+/* Nice bullet points */
+ul {
+  list-style: none;
+}
+
+ul li:before {
+ content: "\0BB \020";
+}
